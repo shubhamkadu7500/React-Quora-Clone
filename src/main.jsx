@@ -6,11 +6,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { PostDataProvider } from "./createcontext/PostContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <PostDataProvider>
-      <Router>
-        <App />
-      </Router>
-    </PostDataProvider>
-  </React.StrictMode>
+  <PostDataProvider>
+    <Router>
+      <App />
+    </Router>
+  </PostDataProvider>
 );
