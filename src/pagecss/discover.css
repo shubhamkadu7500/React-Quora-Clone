@@ -1,0 +1,47 @@
+.card-box{
+   width: 169px;
+   height: 244px;
+    border: 1px groove #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.discover-box img{
+    width: 167px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+
+.space-logo img{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    background-color: #fff;
+    margin: -30px 65px  0 ; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.name{
+    height: 159px;
+    padding: 4px 8px 8px;
+    text-align: center;
+}
+
+.name span{
+    font-size: 13px;
+    color: #282829;
+    font-weight: 800;
+    line-height: 0.3;
+}
+
+.name p{
+    font-size: 14px;
+    color: #282829;
+    font-weight: 400;
+    margin-top: 10px;
+}

@@ -1,0 +1,118 @@
+let Card =[
+    {
+        id:"1",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1656941-1035x207-rnngtfroowjqccwklvelcyxniqwybpgg.jpeg",
+        logo:"	https://qph.cf2.quoracdn.net/main-thumb-ti-1656941-100-stywqbfzokjpfnwhzijdpyxzbuoidoms.jpeg",
+        title:"Hackers & Hacking Zone",
+        desc:"Get daily updates and info for the better understanding of Hacking tips & Tricks",
+
+    },
+    {
+        id:"2",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1590281-320x64-ptezczduhxftpkayykgecrjtwxwebsmz.jpeg",
+        logo:"	https://qph.cf2.quoracdn.net/main-thumb-ti-1590281-100-sbayhwlcveocoglhzgqbylppizitrphi.jpeg",
+        title:"Graphic Design",
+        desc:"Modern, Minimalistic, User Friendly Graphic Design Inspiration",
+    },
+    {
+        id:"3",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1686281-1035x207-jgagyfhdlygiygzwzqgqusafhfutkcuw.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1686281-100-bcspgtrsqvmygmubwwoydshbngaetuqa.jpeg",
+        title:"WordPress Community and Web Development",
+        desc:"WordPress and Web Developmecommunity for begginers and advance WordPress users.",
+    },
+    {
+        id:"4",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1579235-1035x207-lymbncjxwhcbophsyjaimwgzrlurrmxi.jpeg",
+        logo:"	https://qph.cf2.quoracdn.net/main-thumb-ti-1579235-100-vfhnxednupdhnpeowbbbmxsyposlwktm.jpeg",
+        title:"Artificial Intelligence - Cybersecurity - Hacking",
+        desc:"Bringing Humans closer to Machines",
+    },
+    {
+        id:"5",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1195-1035x207-oufudajiyamhhzdxmicunsnlxocipcwj.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1195-100-zrqxlfjkitfzfyhiqeefkalbxlaojdgs.jpeg",
+        title:"How To Use The Brain",
+        desc:"Psychology, Motivation, Self-help, Thinking, & Learning (Science & Experiences)",
+    },
+    {
+        id:"6",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1611965-1035x207-iaamiyobrylaqmvojikgdazrlcyqpjks.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1611965-100-goeyumhmtnzyvmvwbneoiuzoegdhbwon.jpeg",
+        title:"Python Coding",
+        desc:"Learn PYTHON Tips and Tricks I Share your knowledge with us to help the society",
+    },
+    {
+        id:"7",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-2655873-1035x207-zdlupdefyqhdjpvtcmvywkiaskxpidzv.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-2655873-100-cxdietebidstpmcghblkicdxedvfsiug.jpeg",
+        title:"HTML CSS and JavaScript",
+        desc:"Here we learn HTML, CSS and JavaScript with cool projects✨",
+    },
+    {
+        id:"8",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1674197-1035x207-nciowrkpghdypsmqjhulgoswkqfuqmyo.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1674197-100-lteortpmfqocesmlzginuagtgjkrxzbd.jpeg",
+        title:"Full Stack Developers",
+        desc:"Dedicated Full Stack Developers For Your Web , Mobile App & Software Development",
+    },
+    {
+        id:"9",
+        coverimg:"https://res.cloudinary.com/practicaldev/image/fetch/s--ErFNXqjP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/x3akeir98t709d0rbxcy.png",
+        logo:"https://images.credly.com/images/e4e5214a-e9f3-414c-9ebc-d10467a92816/Data_Structures_and_Algorithms.png",
+        title:"Data Structure",
+        desc:"Group for Data Structures and Algorithms concepts and Questions",
+    },
+    {
+        id:"10",
+        coverimg: "https://img.freepik.com/premium-vector/futuristic-stock-market-background-with-trend-graph_83282-38.jpg?w=2000",
+        logo:"https://www.freeiconspng.com/thumbs/stock-exchange-icon-png/money-stock-exchange-icon-png-13.png",
+        title: "STOCK TRADES EXPLAINED.",
+        desc: "A community for Financial Market enthusiasts",
+    },
+    {
+        id:"11",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1604955-1035x207-dsmtygwqmhpsogsniqizeyavlessfqkl.jpeg",
+        logo:"	https://qph.cf2.quoracdn.net/main-thumb-ti-1604955-100-qgfrrlnsrwocywdngcwztzgmzwprwrue.jpeg",
+        title:"The Hindu Vocabulary",
+        desc:"The Hindu Vocabulary on the Daily Basis which will Benefit you in Upcoming Exams",
+    },
+    {
+        id:"12",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1577737-1035x207-xptadnvtorngqtlegyayuxfuvaggyzle.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1577737-100-xppytrdppqycxvkfunshartgkwzgtdvc.jpeg",
+        title:"Communication Skills",
+        desc:"Share your experiences to deal with people",
+    },
+    {
+        id:"13",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1581697-1035x207-vgxtavwpstehskobkuhpsgdqumkojsud.jpeg",
+        logo:"	https://qph.cf2.quoracdn.net/main-thumb-ti-1581697-100-nxcppydnjbitejnxyjwzfamcrhtkpyua.jpeg",
+        title:"India - The Hidden Truth",
+        desc:"About India's hidden truth",
+    },
+    {
+        id:"14",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-2006411-1035x207-jsqeacunfwuephhbwcosnlcjehqyxudp.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-custom-tc-2006411-1035x207-jsqeacunfwuephhbwcosnlcjehqyxudp.jpeg",
+        title:"The QCC",
+        desc:"A space for all genuine Quora Cricket Writers.",
+    },
+    {
+        id:"15",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-3429351-1035x207-oujmbjwtydgetrhkeuxruyjdofzonxzm.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-3429351-100-nupwupchzlioxemlvrygdpbkqprzbnwp.jpeg",
+        title:"Get Insta Followers",
+        desc:"This Space for Instagram Releted Contents and Share Your Insta ID & Stories",
+    },
+    {
+        id:"16",
+        coverimg:"https://qph.cf2.quoracdn.net/main-custom-tc-1843257-1035x207-ktkwzoziarpbojrlnxmgngrnqtnffjob.jpeg",
+        logo:"https://qph.cf2.quoracdn.net/main-thumb-ti-1843257-100-exnrxljhfjpbrrvwgvvwtxybyshndoun.jpeg",
+        title:"Instagram & Reels",
+        desc:"All about instagram and instagram reels",
+    },
+   
+]
+
+export {Card};

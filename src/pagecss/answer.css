@@ -1,0 +1,375 @@
+.answer{
+    display: flex;
+    margin: 0 52px;
+    gap: 15px;
+    padding: 30px 24px 24px;
+}
+
+.answer-content{
+    width: 174px;
+    position: sticky;
+    top: 0;
+}   
+
+.answer-content h6{
+    width: 174px;
+    height: 38px;
+    padding: 8px 16px;
+    font-size: 15px;
+    color:#282829;
+    border-bottom: 1px solid #ccc;   
+
+}
+.answer-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.answer-box p{
+    width: 174px;
+    height: 26px;
+    padding: 4px 16px;
+    font-size: 13px;
+    color: #b92b27;
+    background-color: #b92b271a;
+    font-weight: 500;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.answer-box span{
+    width: 174px;
+    height: 26px;
+    padding: 4px 16px;
+    font-size: 13px;
+    color: #636466;
+    cursor: pointer;
+}
+
+.answer-box span:hover{
+    background-color: #b92b271a;
+
+}
+
+
+.answer-main{
+  width: 570px;
+  background-color: #fff;
+  overflow-y: auto; /* Enable scrolling for content */
+  max-height: calc(100vh - 30px); 
+}
+
+.answer-topic{
+    width: 288px;
+    height: 200px;
+    position: sticky;
+    top: 0;
+}
+
+.answer-quest{
+    display: flex;
+    align-items: center;
+    height: 41px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.star{
+    font-size: 24px;
+    border: 1px solid;
+    padding: 4px;
+    color: #fff;
+    background-color: #b92b27;
+    border-radius: 5px;
+}
+
+.answer-quest span{
+    font-size: 13px;
+    color: #636466;
+    margin-left: 8px;
+}
+
+.answerd-one{
+    height: 112px;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.answer-two{
+    height: 112px;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.answer-three{
+    height: 112px;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.questions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.questions p{
+    font-size: 16px;
+    color: #282829;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.questions p:hover{
+    text-decoration: underline;
+}
+
+.questions button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    padding: 0 6px;
+    background: none;
+    cursor: pointer;
+}
+
+.vsclose{
+    font-size: 24px;
+    color: #636466;
+}
+
+.answerd{
+    display: flex;
+    align-items: center;
+}
+
+.answerd span{
+    font-size: 13px;
+    color: #939598;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.answerd P{
+    font-size: 13px;
+    color: #939598;
+}
+.clicks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.click{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+.click .btn{
+    width: 106px;
+    height: 38px;
+    padding: 0 20px 0 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+
+.btn .as{
+    font-size: 14px;
+    color: #636466;
+}
+
+.pencilsq{
+    font-size: 24px;
+    color: #636466;
+}
+
+.click button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    height: 38px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.click button > span{
+    font-size: 14px;
+    color: #636466;
+}
+
+.wifi{
+    font-size: 24px;
+    color: #636466;
+    
+}
+
+.penciloff{
+    font-size: 24px;
+    color: #636466;
+ 
+}
+.down{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.down{
+    font-size: 24px;
+    color: #636466;
+    border: none;
+    cursor: pointer;
+}
+
+.three{
+    font-size: 24px;
+    color: #636466;
+    cursor: pointer;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    height: 38px;
+}
+
+.more span{
+    font-size: 13px;
+    cursor: pointer;
+    color: #636466;
+}
+.rxdown{
+    font-size: 16px;
+    cursor: pointer;
+    color: #636466;
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 152px;
+    padding: 16px;
+    border-top:1px solid #ccc;
+}
+
+.topics-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.topic-img img{
+    width: 120px;
+    height: 120px;
+}
+
+.topics-info span{
+    font-size: 15px;
+    color: #282829;
+    font-weight: 700;
+
+}
+
+.topics-info p{
+    font-size: 13px;
+    color: #636466;
+}
+
+.topics-info button{
+    width: 108px;
+    height: 38px;
+    padding: 0 20px;
+    border: 1px solid #2e69ff;
+    border-radius: 30px;
+    font-size: 13px;
+    color: #2e69ff;
+    background-color: #fff;
+
+}
+
+.topic-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.topic-about span{
+    font-size: 15px;
+    color: #282829;
+    font-weight: 400;
+}
+.topic-about button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 4px;
+}
+.rxpen{
+    font-size: 20px;
+    color: #636466;
+}
+
+.wrap{
+    padding: 24px 0;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.topic-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topic-box img{
+    width: 50px;
+    height: 50px;
+}
+
+.topic-box span{
+    font-size: 15px;
+    color: #282829;
+    font-weight: 700;
+}
+
+.topic-box p{
+    font-size: 13px;
+    color: #636466;
+}
+
+.wrap button{
+    width: 108px;
+    height: 38px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 0 20px;
+    border: 1px solid #2e69ff;
+    border-radius: 30px;
+    font-size: 13px;
+    color: #2e69ff;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.wrap button:hover{
+    background-color: #b92b271a;
+}

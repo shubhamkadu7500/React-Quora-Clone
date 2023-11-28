@@ -1,0 +1,79 @@
+.feed{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 586px;
+    height: 78px;
+    padding: 12px 12px 0;
+    background: #fff;
+}
+
+.feed-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feed-user img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feed-user input{
+    width: 522px;
+    height: 32px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 30px;
+    background-color: #f7f7f8;
+}
+
+.feed-user input::placeholder{
+    color: #939598;
+    padding: 0 10px;
+}
+
+.feed-sects{
+    display: flex;
+    gap:2px;
+    margin-top: 4px;
+}
+
+.feed-sect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 30px;
+    gap: 8px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+
+.feed-sect p{
+    font-size: 13px;
+    color:#636466;
+    font-weight: 500;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc; 
+    height: 20px;
+    margin-top: 7px;  
+}
+
+.feeds{
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,296 @@
+.header-question{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: -6px;
+    width: 142px;
+    height: 30px;
+    outline: none;
+    padding:2px 8px ;
+    background-color: #b92b27;
+}
+
+.header-question span{
+    font-size: 13px;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.caret{
+
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 3px;
+    border-left: 1px solid #fcf7f700;
+}
+
+.customModal{
+    width: 728px;
+    height: 568px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+
+.modal{
+    margin-top: 20px;
+}
+
+.modal-titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 37px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.modal-title {
+    width: 400px;
+    height: 38px;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .modal-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Adjust this value to control the position of the line */
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: blue; /* Adjust color as needed */
+    display: none;
+    border-radius: 30px;
+    /* margin-top: -5px; */
+  }
+  
+  .modal-title.active::after {
+    display: block;
+  }
+
+.modal-title  button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #282829;    
+
+}
+
+
+
+.questions-area{
+    width: 728px;
+    height:450px;
+    padding: 0 16px;
+}
+.question-tips{
+    width: 670px;
+    height:116px;
+    background:#ebf0ff;
+    margin: 16px 0 16px;
+    padding:16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.question-tips h6{
+    font-size: 15px;
+    color: #2e69ff;
+    font-weight:700;
+}
+
+.question-tips{
+    font-size: 15px;
+    color: #2e69ff;
+}
+
+.modal-user{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:670px;
+    height:30px;
+    margin:0 0 8px;
+}
+
+.modal-user img{
+    width:18px;
+    height:18px;
+    border-radius: 50px;
+}
+
+.rightarrow{
+    font-size:12px;
+    color:#636466;
+}
+.public{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    width:100px;
+    height:30px;
+    padding: 0 15px 0 10px;
+    border:1px solid #ccc;
+    border-radius: 30px;
+}
+
+.users{
+    font-size:20px;
+    color:#636466;
+}
+
+.public span{
+    font-size:13px;
+    color:#636466;
+}
+
+.rxcaret{
+    font-size:16px;
+}
+.modal-textarea input{
+    width:670px;
+    height:30px;
+    background:#fff;
+    padding: 0 0 8px;
+    border:none;
+    outline: none;
+    border-bottom:1px solid#ccc;
+}
+
+.add-question{
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    gap: 10px;
+    margin-top: 208px;
+}
+
+.add-question span{
+    font-size:14px;
+    color:#636466;
+    cursor:pointer;
+}
+
+.add-question button{
+    height: 38px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius:30px;
+    cursor:pointer;
+    border: none;
+    font-size: 13px;
+    background: rgb(145, 145, 190);
+}
+
+
+/* css of create post section */
+.create{
+    width: 728px;
+}
+
+.create-post{
+    width: 670px;
+    margin-top: 10px;
+}
+.createpost-author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.author-name h4{
+    font-size: 13px;
+    color: #282829;
+    font-weight: bolder;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    height: 30px;
+    padding: 0 15px;
+    border:1px solid #ccc;
+    border-radius: 30px;
+}
+
+
+.choose span{
+    font-size: 13px;
+    color:#636466;
+    font-weight: 600;
+}
+
+.c-right{
+    font-size: 20px;
+    color:#636466;
+    margin-top:5px;
+}
+.author-image{
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.write{
+    width: 670px;
+    height: 260px;
+    padding: 8px;
+}
+
+.write input{
+    width: 650px;
+    border: none;
+}
+
+.post-icons{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    height:54px;
+    margin-top: 90px;
+    border-top: 1px solid #ccc;
+}
+
+.post-icons span{
+    font-size: 24px;
+}
+.gal{
+    font-size: 24px;
+    color:#636466;
+}
+
+.post button{
+    cursor: pointer;
+    width: 68px;
+    height:38px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: rgb(175, 175, 215);
+    color:#fff;
+    font-weight:600;
+}
+

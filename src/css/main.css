@@ -1,0 +1,12 @@
+body{
+    background-color:  rgba(0, 0, 0, 0.05);
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    width: 1148px;
+    margin: 0 50px;
+    padding: 16px 24px 0;
+    gap: 10px;
+    min-width: fit-content;
+}
