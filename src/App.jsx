@@ -19,7 +19,6 @@ function App() {
         <Route path="/Spaces" element={<Spaces />} />
         <Route path="/Notifications" element={<Notifications />} />
         <Route path="*" element={<NoMatch />} />{" "}
-        {/* Catch-all route should be at the end */}
       </Routes>
     </>
   );
